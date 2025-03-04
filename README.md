@@ -1,1 +1,1 @@
-# Openrelik worker for running Plaso (log2timeline and psort) on input files
+# The actual most basic OpenRelic worker yet.
