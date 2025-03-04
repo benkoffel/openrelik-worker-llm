@@ -5,10 +5,8 @@ You need an Ollama container that this worker can connect to on TCP/11434 ie.
   openrelik-ollama:
     container_name: ollama
     image: ollama/ollama:latest
-    pull_policy: always
     ports:
       - 11434:11434
-    command: "ollama run llama3"
 ```
 
 You will also need to load the llama3 model in the Ollama instance ie.
